@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c88989;
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Header styles */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Input box styles */
+  .input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-box .material-symbols-rounded {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  /* Password length styles */
+  .pass-length {
+    margin-bottom: 20px;
+  }
+  
+  .pass-length .details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .pass-length input[type="range"] {
+    width: 100%;
+  }
+  
+  /* Password settings styles */
+  .pass-settings {
+    margin-bottom: 20px;
+  }
+  
+  .pass-settings .title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .pass-settings .options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pass-settings .options li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Generate button styles */
+  .generate-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .generate-btn:hover {
+    background-color: #0056b3;
+  }
+  
